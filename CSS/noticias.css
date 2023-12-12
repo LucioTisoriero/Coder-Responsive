@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(235, 30, 42);
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+
+header nav{
+    text-align: center;
+    padding-top: 25px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(22, 56, 86);
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+header nav a:hover{
+    background-color: rgb(0, 132, 246);
+    border: 1px solid white;
+}
+
+main{
+    padding-top: 100px;
+    background-color: rgb(22, 56, 86);
+}
+
+.noticia1{
+    height: 400px;
+    margin: 10px;
+    background-image: url(../Imagenes/Noticia1mod.png);
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.noticia1 a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.noticia1:hover{
+    border: 2px solid white;
+}
+
+.texto{
+    height: 400px;
+    margin: 20px;
+}
+
+.texto2{
+    color: rgb(235, 30, 42);
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+
+.texto1{
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.texto p:hover{
+    color: rgb(235, 30, 42);
+}
+
+.noticia2{
+    height: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url(../Imagenes/noticia2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.noticia2:hover{
+    border: 2px solid white;
+}
+
+.noticia2 a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.otras{
+    height: 150px;
+    border-top: 1px solid white;
+    padding-top: 50px;
+}
+
+.info{
+    border: 1px solid white;
+    margin-left: 85px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.info:hover{
+    color: black;
+    border: 2px solid white;
+}
+
+footer{
+    background-color: rgb(235, 30, 42);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.fuente{
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
+
+.fuente:hover{
+    color: black;
+    background-color: white;
+}
+
+.DiarioFuente{
+    padding-top: 50px;
+}
+    
+.tapa{
+    width: 100px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 1024px){
+    .texto2{
+        display: block;
+        width: 400px;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .otras{
+        padding-left: 600px;
+    }
+    footer{
+        justify-content: space-between;
+    }
+}

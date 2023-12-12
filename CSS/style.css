@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(235, 30, 42);
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+
+header nav{
+    text-align: center;
+    padding-top: 25px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(22, 56, 86);
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+header nav a:hover{
+    background-color: rgb(0, 132, 246);
+    border: 1px solid white;
+}
+
+main{
+    background-color:  rgb(22, 56, 86);
+    width: 100%;
+}
+
+.parte1{
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenprincipal{
+    border: 1px solid black;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 800px;
+    background-image: url(/Imagenes/Fotoprincipal.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    display: none;
+}
+
+.imagenprincipal:hover{
+    border: 2px solid white;
+}
+
+.imagenprincipal a{
+    color: rgb(235, 30, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    margin: 25px;
+}
+
+.imagenprincipal a:hover{
+    color: white;
+}
+
+.tabla{
+    width: 300px;
+    margin-top: 85px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    border: 3px solid black;
+}
+
+main div p{
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.video{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.video p{
+    width: 500px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 300px;
+    display: none;
+}
+
+.video1{
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.parte2{
+    border-top: 1px solid white;
+}
+
+.mini1{
+    width: 300px;
+    margin-left: 11px;
+    margin-top: 20px;
+}
+
+.mini1:hover{
+    border: 3px solid white;
+}
+
+.titulo1{
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.titulo2{
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.mini2{
+    width: 300px;
+    margin-left: 11px;
+    margin-top: 20px;
+}
+
+.mini2:hover{
+    border: 3px solid white;
+}
+
+footer{
+    background-color: rgb(235, 30, 42);
+    border-top: 1px solid white;
+}
+
+footer a:hover{
+    color: black;
+}
+.redes{
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.redes a{
+    color: white;
+    text-decoration: none;
+    padding-left: 125px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.mapa{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.contacto a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .imagenprincipal{
+        display: block;
+    }
+    .video p{
+        display: block;
+    }
+    .parte2{
+        padding-left: 600px;
+    }
+    .parte3{
+        padding-left: 600px;
+    }
+    .redes{
+        padding-left: 600px;
+    }
+    .contacto{
+        justify-content: center;
+    }
+}
+
