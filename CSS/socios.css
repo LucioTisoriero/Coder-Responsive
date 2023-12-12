@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(235, 30, 42);
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+header nav{
+    text-align: center;
+    padding-top: 25px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(22, 56, 86);
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+header nav a:hover{
+    background-color: rgb(0, 132, 246);
+    border: 1px solid white;
+}
+
+main{
+    background-color:  rgb(22, 56, 86);
+    width: 100%;
+    padding-top: 100px;
+}
+
+.segundaparte{
+    margin-top: 50px;
+    background-image: url(../Imagenes/Sociostribuna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 170px;
+}
+
+.segundaparte p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.segundaparte p:hover{
+    background-color: black;
+}
+
+.imagenes{
+    margin-top: 25px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 300px 300px;
+    row-gap: 25px;
+    padding-left: 20px;
+}
+
+.abonos{
+    margin-top: 25px;
+}
+
+.abonos img{
+    width: 250px;
+    border: 1px solid white;
+}
+
+.beneficios img{
+    width: 250px;
+    border: 1px solid white;
+}
+
+.enlaces{
+   padding-top: 30px;
+   display: flex;
+   justify-content: center;
+   height: 100px;
+   border-bottom: 1px solid white;
+}
+
+.enlaces a{
+    background-color: rgb(235, 30, 42);
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.enlaces a:hover{
+    color: black;
+    border: 3px solid white;
+}
+
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 30, 42);
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 15px;
+}
+
+.mapa{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .imagenes{
+        padding-left: 630px;
+    }
+}
