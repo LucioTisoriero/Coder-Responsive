@@ -182,13 +182,13 @@ main{
     padding-top: 25px;
 }
 
-.noticias{
+.Info{
     color: white;
     text-decoration: none;
     margin-left: 120px;
 }
 
-.noticias:hover{
+.Info:hover{
     background-color: rgb(235, 30, 42);
 }
 
