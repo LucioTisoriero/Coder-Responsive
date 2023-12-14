@@ -146,6 +146,14 @@ footer{
     margin: 10px;
 }
 
+.baner{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+    display: none;
+    margin-top: 25px;
+}
+
 @media screen and (min-width: 1024px){
     .texto2{
         display: block;
@@ -158,5 +166,8 @@ footer{
     }
     footer{
         justify-content: space-between;
+    }
+    .baner{
+        display: block;
     }
 }

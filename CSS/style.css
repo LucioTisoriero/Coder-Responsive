@@ -35,6 +35,7 @@ header nav a:hover{
 main{
     background-color:  rgb(22, 56, 86);
     width: 100%;
+    padding-top: 100px;
 }
 
 .parte1{
@@ -43,41 +44,73 @@ main{
     justify-content: space-between;
 }
 
-.imagenprincipal{
-    border: 1px solid black;
-    margin-right: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 800px;
-    background-image: url(/Imagenes/Fotoprincipal.jpg);
-    background-size: cover;
-    border-radius: 20px;
-    display: none;
-}
-
-.imagenprincipal:hover{
-    border: 2px solid white;
-}
-
-.imagenprincipal a{
-    color: rgb(235, 30, 42);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    text-decoration: none;
-    background-color: black;
-    margin: 25px;
-}
-
-.imagenprincipal a:hover{
-    color: white;
-}
-
 .tabla{
     width: 300px;
-    margin-top: 85px;
     margin-left: 10px;
     margin-bottom: 25px;
     border: 3px solid black;
+}
+
+.dos{
+    border: 1px solid white;
+    margin-top: 140px;
+    width: 500px;
+    height: 400px;
+    background-image: url(../Imagenes/Inicio2.jpg);
+    background-size: cover;
+    display: none;
+}
+
+.dos:hover{
+    border: 3px solid white;
+}
+
+.dos a{
+    color: rgb(235, 30, 42);
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.dos p{
+    color: rgb(235, 30, 42);
+    text-align: center;
+    margin-top: 250px;
+}
+
+.dos a:hover{
+    color: white;
+}
+
+.tres{
+    border: 1px solid white;
+    margin-top: 140px;
+    width: 500px;
+    height: 400px;
+    background-image: url(../Imagenes/Fotoprincipal.jpg);
+    margin-right: 25px;
+    display: none;
+}
+
+.tres:hover{
+    border: 3px solid white;
+}
+
+.tres a{
+    color: rgb(235, 30, 42);
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.tres a:hover{
+    color: white;
+}
+
+.tres p{
+    color: rgb(235, 30, 42);
+    text-align: center;
+    margin-top: 200px;
 }
 
 main div p{
@@ -85,10 +118,12 @@ main div p{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
+    text-align: center;
 }
 
 .video{
     display: flex;
+    justify-content: center;
     padding-bottom: 10px;
 }
 
@@ -187,10 +222,25 @@ footer a:hover{
 }
 
 
+.baner{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+    display: none;
+    margin-top: 25px;
+}
+
+
 @media screen and (min-width: 1024px) {
-    .imagenprincipal{
+
+    .dos{
         display: block;
     }
+
+    .tres{
+        display: block;
+    }
+
     .video p{
         display: block;
     }
@@ -203,8 +253,8 @@ footer a:hover{
     .redes{
         padding-left: 600px;
     }
-    .contacto{
-        justify-content: center;
+    .baner{
+        display: block;
     }
 }
 

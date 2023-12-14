@@ -131,8 +131,19 @@ main{
     text-align: center;
 }
 
+.baner{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+    display: none;
+    margin-top: 25px;
+}
+
 @media screen and (min-width: 1024px){
     .imagenes{
         padding-left: 630px;
+    }
+    .baner{
+        display: block;
     }
 }
