@@ -199,6 +199,41 @@ main{
     border: 4px solid black;
 }
 
+footer{
+    background-color: rgb(235, 30, 42);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div img{
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.Sitio{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.Sitio:hover{
+    border: 3px solid white;
+}
+
+.sitiooficial{
+    margin-top: 50px;
+}
+
+.baner{
+    width: 500px;
+    display: none;
+}
 
 @media screen and (min-width: 1024px){
     .basquet2{
@@ -217,12 +252,15 @@ main{
         width: 500px;
         height: 500px
     }
-    .noticias{
+    .Info{
         margin-left: 700px;
     }
     .fixture{
         width: 500px;
-        margin-left: 600px;
+        margin-left: 500px;
+    }
+    .baner{
+        display: block;
     }
    
    
