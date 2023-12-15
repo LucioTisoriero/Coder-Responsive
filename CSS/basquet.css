@@ -199,6 +199,24 @@ main{
     border: 4px solid black;
 }
 
+.redsocial{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    display: none;
+    margin-right: 80px;
+}
+.Social1{
+    width: 150px;
+}
+.Social2{
+    width: 150px;
+}
+.Social3{
+    width: 150px;
+}
+
+
 footer{
     background-color: rgb(235, 30, 42);
     border-top: 1px solid white;
@@ -211,6 +229,8 @@ footer div img{
     border-radius: 50px;
     margin: 10px;
 }
+
+
 
 .Sitio{
     text-decoration: none;
@@ -261,6 +281,9 @@ footer div img{
     }
     .baner{
         display: block;
+    }
+    .redsocial{
+        display: flex;
     }
    
    
