@@ -1,0 +1,273 @@
+header{
+    background-color: rgb(235, 30, 42);
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    position: fixed;
+    nav{
+        text-align: center;
+        padding-top: 25px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        background-color: rgb(22, 56, 86);
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+}
+
+main{
+    padding-top: 100px;
+    background-color: rgb(22, 56, 86);
+    .noticia1{
+        height: 400px;
+        margin: 10px;
+        background-image: url(../Imagenes/Noticia1mod.png);
+        background-size: cover;
+        border: 1px solid black;
+        a{
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            
+        }
+    }
+    .noticia2{
+        height: 400px;
+        margin: 10px;
+        border: 1px solid black;
+        background-image: url(../Imagenes/noticia2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        a{
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+    }
+    .texto{
+        height: 400px;
+        margin: 20px;
+        .texto1{
+            font-size: 60px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+        }
+        .texto2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            display: none;
+        }
+        .texto3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            display: none;
+        }
+        .texto4{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            display: none;
+        }
+    }
+    .otras{
+        height: 150px;
+        border-top: 1px solid white;
+        padding-top: 50px;
+        .info{
+            border: 1px solid white;
+            margin-left: 85px;
+            padding: 5px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+    h1{
+        color: rgb(235, 30, 42);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 300px;
+        display: none;
+    }
+    .otrasnoticias{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px;
+        column-gap: 15px;
+        row-gap: 15px;
+        margin-left: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: none;
+        .otras1{
+            border: 1px solid white;
+            background-image: url(../Imagenes/otrasnoticias1.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: black;
+            }
+        }
+        .otras2{
+            background-image: url(../Imagenes/otrasnoticias2.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: black;
+            }
+        }
+        .otras3{
+            background-image: url(../Imagenes/otrasnoticias6.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: black;
+            }
+        }
+        .otras4{
+            background-image: url(../Imagenes/otrasnoticias3.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: black;
+            }
+        }
+        .otras5{
+            background-image: url(../Imagenes/otrasnoticias4.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: black;
+            }
+        }
+        .otras6{
+            background-image: url(../Imagenes/otrasnoticias5.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 1px solid white;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: black;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: rgb(235, 30, 42);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    .DiarioFuente{
+        padding-top: 50px;
+        img{
+            width: 100px;
+            margin-left: 10px;
+        }
+        .fuente{
+            color: white;
+            text-decoration: none;
+            margin: 25px;
+        }
+    }
+    .tapa{
+        width: 100px;
+        margin: 10px;
+    }
+    .baner{
+        width: 700px;
+        height: 30px;
+        border-radius: 10px;
+        display: none;
+        margin-top: 25px;
+    }
+}
+
+header nav a:hover{
+    background-color: rgb(0, 132, 246);
+    border: 1px solid white;
+}
+.noticia1:hover{
+    border: 2px solid white;
+}
+.texto p:hover{
+    color: rgb(235, 30, 42);
+}
+.noticia2:hover{
+    border: 2px solid white;
+}
+.info:hover{
+    color: black;
+    border: 2px solid white;
+}
+.otrasnoticias a:hover{
+    color: rgb(235, 30, 42);
+}
+.fuente:hover{
+    color: black;
+    background-color: white;
+}
+
+@media screen and (min-width: 1440px){
+    .texto{
+        display: flex;
+        justify-content: space-between;
+    }
+    .texto1{
+        width: 500px;
+        margin-top: 50px;
+    }
+    .texto2{
+        display: block;
+        width: 500px;
+        margin-top: 50px;
+    }
+    .texto3{
+        display: block;
+        width: 500px;
+        margin-top: 50px;
+    }
+    .texto4{
+        display: block;
+        width: 500px;
+        margin-top: 50px;
+    }
+    .otras{
+        padding-left: 600px;
+    }
+    footer{
+        justify-content: space-between;
+    }
+    .baner{
+        display: block;
+    }
+    .otrasnoticias{
+        display: grid;
+    }
+    h1{
+        display: block;
+    }
+}

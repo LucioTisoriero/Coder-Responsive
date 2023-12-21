@@ -1,290 +1,253 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+header {
+  background-color: rgb(235, 30, 42);
+  height: 75px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  position: fixed;
+}
+header nav {
+  text-align: center;
+  padding-top: 25px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  background-color: rgb(22, 56, 86);
+  border-radius: 5px;
+  border: 2px solid white;
 }
 
-header{
-    background-color: rgb(235, 30, 42);
-    height: 75px;
-    width: 100%;
-    border-bottom: 1px solid white;
-    position: fixed;
+main {
+  padding-top: 100px;
+  background-color: rgb(22, 56, 86);
+}
+main .PrimeraParte {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 70px;
+  padding-bottom: 50px;
+}
+main .PrimeraParte .basquet1 {
+  border: 1px solid white;
+  background-image: url(../Imagenes/basquet1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+}
+main .PrimeraParte .basquet1 p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+main .PrimeraParte .basquet1 a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+main .PrimeraParte .basquet2 {
+  border: 1px solid white;
+  background-image: url(../Imagenes/basquet2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  display: none;
+}
+main .PrimeraParte .basquet2 p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+main .PrimeraParte .basquet2 a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+main .segundaparte {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 70px;
+  padding-bottom: 50px;
+}
+main .segundaparte .basquet3 {
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+  background-image: url(../Imagenes/basquet3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .segundaparte .basquet3 p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+main .segundaparte .basquet3 a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+main .segundaparte .basquet4 {
+  display: none;
+  border: 1px solid white;
+  height: 200px;
+  width: 200px;
+  background-image: url(../Imagenes/basquet4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .segundaparte .basquet4 p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+main .segundaparte .basquet4 a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+main .NoticiasOficial {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 75px;
+  padding-top: 25px;
+}
+main .Info {
+  color: white;
+  text-decoration: none;
+  margin-left: 120px;
+}
+main .fixture {
+  width: 200px;
+  margin: 20px;
+  margin-left: 75px;
+  border: 4px solid black;
+}
+main .redsocial {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  display: none;
+  margin-right: 80px;
+}
+main .redsocial .Social1 {
+  width: 150px;
+}
+main .redsocial .Social2 {
+  width: 150px;
+}
+main .redsocial .Social3 {
+  width: 150px;
 }
 
-header nav{
-    text-align: center;
-    padding-top: 25px;
+footer {
+  background-color: rgb(235, 30, 42);
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+footer img {
+  width: 100px;
+  border-radius: 50px;
+  margin: 10px;
+}
+footer .sitiooficial {
+  margin-top: 50px;
+}
+footer .sitiooficial .Sitio {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+}
+footer .baner {
+  width: 500px;
+  display: none;
 }
 
-header nav a{
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    background-color: rgb(22, 56, 86);
-    border-radius: 5px;
-    border: 2px solid white;
+header nav a:hover {
+  background-color: rgb(0, 132, 246);
+  border: 1px solid white;
 }
 
-header nav a:hover{
-    background-color: rgb(0, 132, 246);
-    border: 1px solid white;
+.basquet1:hover {
+  border: 3px solid white;
 }
 
-main{
-    padding-top: 100px;
-    background-color: rgb(22, 56, 86);
+.basquet1 a:hover {
+  color: rgb(235, 30, 42);
 }
 
-.PrimeraParte{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    margin-left: 70px;
-    padding-bottom: 50px;
+.basquet2:hover {
+  border: 3px solid white;
 }
 
-.basquet1{
-    border: 1px solid white;
-    background-image: url(../Imagenes/basquet1.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
+.basquet2 a:hover {
+  color: rgb(235, 30, 42);
 }
 
-.basquet1 p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
+.basquet3:hover {
+  border: 3px solid white;
 }
 
-.basquet1:hover{
-    border: 3px solid white;
+.basquet3 a:hover {
+  color: rgb(235, 30, 42);
 }
 
-.basquet1 a:hover{
-    color: rgb(235, 30, 42);
+.basquet4:hover {
+  border: 3px solid white;
 }
 
-.basquet1 a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background-color: white;
+.Info:hover {
+  background-color: rgb(235, 30, 42);
 }
 
-.basquet2{
-    border: 1px solid white;
-    background-image: url(../Imagenes/basquet2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.Sitio:hover {
+  border: 3px solid white;
+}
+
+@media screen and (min-width: 1024px) {
+  .basquet2 {
+    display: block;
+  }
+  .PrimeraParte {
+    justify-content: center;
+  }
+  .segundaparte {
+    justify-content: center;
+  }
+  .basquet4 {
+    display: block;
+  }
+  .basquet3 {
     width: 500px;
     height: 500px;
-    display: none;
-}
-
-.basquet2 p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-}
-
-.basquet2 a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background-color: white;
-}
-
-.basquet2:hover{
-    border: 3px solid white;
-}
-
-.basquet2 a:hover{
-    color: rgb(235, 30, 42);
-}
-
-.segundaparte{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    margin-left: 70px;
-    padding-bottom: 50px;
-}
-
-.basquet3{
-    height: 200px;
-    width: 200px;
-    border: 1px solid white;
-    background-image: url(../Imagenes/basquet3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.basquet3 p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-}
-
-.basquet3 a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background-color: white;
-}
-
-.basquet3:hover{
-    border: 3px solid white;
-}
-
-.basquet3 a:hover{
-    color: rgb(235, 30, 42);
-}
-
-.basquet4{
-    display: none;
-    border: 1px solid white;
-    height: 200px;
-    width: 200px;
-    background-image: url(../Imagenes/basquet4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.basquet4 p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-}
-
-.basquet4 a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background-color: white;
-}
-
-.basquet4:hover{
-    border: 3px solid white;
-}
-
-.basquet4 a:hover{
-    color: rgb(235, 30, 42)
-}
-
-.NoticiasOficial{
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    height: 75px;
-    padding-top: 25px;
-}
-
-.Info{
-    color: white;
-    text-decoration: none;
-    margin-left: 120px;
-}
-
-.Info:hover{
-    background-color: rgb(235, 30, 42);
-}
-
-.fixture{
-    width: 200px;
-    margin: 20px;
-    margin-left: 75px;
-    border: 4px solid black;
-}
-
-.redsocial{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    display: none;
-    margin-right: 80px;
-}
-.Social1{
-    width: 150px;
-}
-.Social2{
-    width: 150px;
-}
-.Social3{
-    width: 150px;
-}
-
-
-footer{
-    background-color: rgb(235, 30, 42);
-    border-top: 1px solid white;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer div img{
-    width: 100px;
-    border-radius: 50px;
-    margin: 10px;
-}
-
-
-
-.Sitio{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 10px;
-}
-
-.Sitio:hover{
-    border: 3px solid white;
-}
-
-.sitiooficial{
-    margin-top: 50px;
-}
-
-.baner{
+  }
+  .Info {
+    margin-left: 700px;
+  }
+  .fixture {
     width: 500px;
-    display: none;
+    margin-left: 500px;
+  }
+  .baner {
+    display: block;
+  }
+  .redsocial {
+    display: flex;
+  }
 }
 
-@media screen and (min-width: 1024px){
-    .basquet2{
-        display: block;
-    }
-    .PrimeraParte{
-        justify-content: center;
-    }
-    .segundaparte{
-        justify-content: center;
-    }
-    .basquet4{
-        display: block;
-    }
-    .basquet3{
-        width: 500px;
-        height: 500px
-    }
-    .Info{
-        margin-left: 700px;
-    }
-    .fixture{
-        width: 500px;
-        margin-left: 500px;
-    }
-    .baner{
-        display: block;
-    }
-    .redsocial{
-        display: flex;
-    }
-   
-   
-}
+/*# sourceMappingURL=basquet.css.map */
