@@ -203,15 +203,15 @@ footer a:hover{
 @media screen and (min-width: 1024px) {
 
     .dos{
-        display: block;
+        display: flex;
     }
 
     .tres{
-        display: block;
+        display: flex;
     }
 
     .video p{
-        display: block;
+        display: flex;
     }
     .parte2{
         padding-left: 600px;
@@ -223,6 +223,7 @@ footer a:hover{
         padding-left: 600px;
     }
     .baner{
-        display: block;
+        display: flex;
     }
 }
+
