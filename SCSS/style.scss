@@ -53,12 +53,6 @@ main{
             background-image: url(../Imagenes/Inicio2.jpg);
             background-size: cover;
             display: none;
-            @media screen and (min-width: 1024px) {
-
-                .dos{
-                    display: block;
-                }         
-            }
             a{
                 color: rgb(235, 30, 42);
                 background-color: black;
@@ -126,6 +120,8 @@ main{
             background-color: black;
             text-decoration: none;
         }
+    }
+    .parte3{
         .titulo2{
             margin-left: 25px;
             font-family: Arial, Helvetica, sans-serif;
@@ -139,7 +135,6 @@ main{
             margin-top: 20px;
         }
     }
-    
 }
 
 footer{
@@ -211,11 +206,9 @@ footer a:hover{
     .dos{
         display: block;
     }
-
     .tres{
         display: block;
     }
-
     .video p{
         display: block;
     }

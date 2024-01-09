@@ -1,9 +1,3 @@
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
 header {
   background-color: rgb(235, 30, 42);
   height: 75px;
@@ -127,14 +121,14 @@ main .parte2 .titulo1 {
   background-color: black;
   text-decoration: none;
 }
-main .parte2 .titulo2 {
+main .parte3 .titulo2 {
   margin-left: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   background-color: black;
   text-decoration: none;
 }
-main .parte2 .mini2 {
+main .parte3 .mini2 {
   width: 300px;
   margin-left: 11px;
   margin-top: 20px;
@@ -211,29 +205,27 @@ footer a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-
-  .dos{
-      display: block;
+  .dos {
+    display: inline-block;
   }
-
-  .tres{
-      display: block;
+  .tres {
+    display: inline-block;
   }
-
-  .video p{
-      display: block;
+  .video p {
+    display: inline-block;
   }
-  .parte2{
-      padding-left: 600px;
+  .parte2 {
+    padding-left: 600px;
   }
-  .parte3{
-      padding-left: 600px;
+  .parte3 {
+    padding-left: 600px;
   }
-  .redes{
-      padding-left: 600px;
+  .redes {
+    padding-left: 600px;
   }
-  .baner{
-      display: block;
+  .baner {
+    display: inline-block;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
