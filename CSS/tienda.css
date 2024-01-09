@@ -96,25 +96,26 @@ header nav a:hover {
   border: 1px solid white;
 }
 
-@media screen and (min-width: 1024px) {
-  .marca {
-    width: 500px;
-    height: 500px;
-    margin-right: 50px;
+@media screen and (min-width: 1024px){
+  .marca{
+      width: 500px;
+      height: 500px;
+      margin-right: 50px;
   }
-  .video {
-    display: flex;
-    justify-content: center;
+  .video{
+      display: flex;
+      justify-content: center;
   }
-  .video img {
-    width: 400px;
+  .video img{
+      width: 400px;
   }
-  .ultimo {
-    justify-content: space-between;
+  .ultimo{
+      justify-content: space-between;
   }
-  .baner {
-    display: block;
+  .baner{
+      display: inline-flex;
   }
+ 
 }
 
 /*# sourceMappingURL=tienda.css.map */

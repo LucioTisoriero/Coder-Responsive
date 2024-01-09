@@ -211,27 +211,29 @@ footer a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  .dos {
-    display: flex;
+
+  .dos{
+      display: block;
   }
-  .tres {
-    display: flex;
+
+  .tres{
+      display: block;
   }
-  .video p {
-    display: flex;
+
+  .video p{
+      display: block;
   }
-  .parte2 {
-    padding-left: 600px;
+  .parte2{
+      padding-left: 600px;
   }
-  .parte3 {
-    padding-left: 600px;
+  .parte3{
+      padding-left: 600px;
   }
-  .redes {
-    padding-left: 600px;
+  .redes{
+      padding-left: 600px;
   }
-  .baner {
-    display: flex;
+  .baner{
+      display: block;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

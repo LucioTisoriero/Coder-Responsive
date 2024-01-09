@@ -127,13 +127,15 @@ header nav a:hover {
   border: 3px solid white;
 }
 
-@media screen and (min-width: 1024px) {
-  .imagenes {
-    padding-left: 630px;
+@media screen and (min-width: 1024px){
+  .imagenes{
+      padding-left: 630px;
   }
-  .baner {
-    display: block;
+  .baner{
+      display: block;
   }
 }
+
+
 
 /*# sourceMappingURL=socios.css.map */

@@ -53,6 +53,12 @@ main{
             background-image: url(../Imagenes/Inicio2.jpg);
             background-size: cover;
             display: none;
+            @media screen and (min-width: 1024px) {
+
+                .dos{
+                    display: block;
+                }         
+            }
             a{
                 color: rgb(235, 30, 42);
                 background-color: black;
@@ -203,15 +209,15 @@ footer a:hover{
 @media screen and (min-width: 1024px) {
 
     .dos{
-        display: flex;
+        display: block;
     }
 
     .tres{
-        display: flex;
+        display: block;
     }
 
     .video p{
-        display: flex;
+        display: block;
     }
     .parte2{
         padding-left: 600px;
@@ -223,7 +229,7 @@ footer a:hover{
         padding-left: 600px;
     }
     .baner{
-        display: flex;
+        display: block;
     }
 }
 
