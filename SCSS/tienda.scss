@@ -14,6 +14,10 @@ header{
             background-color: rgb(22, 56, 86);
             border-radius: 5px;
             border: 2px solid white;
+            &:hover{
+                background-color: rgb(0, 132, 246);
+                border: 1px solid white;
+            }
         }
     }
 }
@@ -70,6 +74,9 @@ main{
         border: 1px solid yellow;
         border-radius: 5px;
         padding: 5px;
+        &:hover{
+            border: 3px solid yellow;
+        }
     }
     .baner{
         width: 700px;
@@ -78,15 +85,6 @@ main{
         display: none;
     }
 }
-
-.Sitio:hover{
-    border: 3px solid yellow;
-}
-header nav a:hover{
-    background-color: rgb(0, 132, 246);
-    border: 1px solid white;
-}
-
 
 @media screen and (min-width: 1024px){
     .marca{

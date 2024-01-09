@@ -1,3 +1,10 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+
 header{
     background-color: rgb(235, 30, 42);
     height: 75px;
@@ -15,6 +22,10 @@ header{
             background-color: rgb(22, 56, 86);
             border-radius: 5px;
             border: 2px solid white;
+            &:hover{
+                background-color: rgb(0, 132, 246);
+                border: 1px solid white;
+            }
         }
     }
 }
@@ -35,6 +46,9 @@ main{
             background-repeat: no-repeat;
             height: 200px;
             width: 200px;
+            &hover{
+                border: 3px solid white;
+            }
             p{
                 color: white;
                 font-family: Arial, Helvetica, sans-serif;
@@ -45,6 +59,9 @@ main{
                 font-family: Arial, Helvetica, sans-serif;
                 color: black;
                 background-color: white;
+                &:hover{
+                    color: rgb(235, 30, 42);
+                }
             }
         }
         .basquet2{
@@ -55,6 +72,9 @@ main{
             width: 500px;
             height: 500px;
             display: none;
+            &:hover{
+                border: 3px solid white;
+            }
             p{
                 color: white;
                 font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +85,9 @@ main{
                 font-family: Arial, Helvetica, sans-serif;
                 color: black;
                 background-color: white;
+                &:hover{
+                    color: rgb(235, 30, 42);
+                }
             }
         }
     }
@@ -81,6 +104,9 @@ main{
             background-image: url(../Imagenes/basquet3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover{
+                border: 3px solid white;
+            }
             p{
                 color: white;
                 font-family: Arial, Helvetica, sans-serif;
@@ -91,6 +117,9 @@ main{
                 font-family: Arial, Helvetica, sans-serif;
                 color: black;
                 background-color: white;
+                &:hover{
+                    color: rgb(235, 30, 42);
+                }
             }
             
         }
@@ -102,6 +131,9 @@ main{
             background-image: url(../Imagenes/basquet4.jpg);
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover{
+                border: 3px solid white;
+            }
             p{
                 color: white;
                 font-family: Arial, Helvetica, sans-serif;
@@ -125,6 +157,9 @@ main{
         color: white;
         text-decoration: none;
         margin-left: 120px;
+        &:hover{
+            background-color: rgb(235, 30, 42);
+        }
     }
     .fixture{
         width: 200px;
@@ -170,6 +205,9 @@ footer{
             border-radius: 5px;
             padding: 5px;
             margin-right: 10px;
+            &:hover{
+                border: 3px solid white;
+            }
         }
     }
     .baner{
@@ -178,37 +216,6 @@ footer{
     }    
 }
 
-header nav a:hover{
-    background-color: rgb(0, 132, 246);
-    border: 1px solid white;
-}
-.basquet1:hover{
-    border: 3px solid white;
-}
-.basquet1 a:hover{
-    color: rgb(235, 30, 42);
-}
-.basquet2:hover{
-    border: 3px solid white;
-}
-.basquet2 a:hover{
-    color: rgb(235, 30, 42);
-}
-.basquet3:hover{
-    border: 3px solid white;
-}
-.basquet3 a:hover{
-    color: rgb(235, 30, 42);
-}
-.basquet4:hover{
-    border: 3px solid white;
-}
-.Info:hover{
-    background-color: rgb(235, 30, 42);
-}
-.Sitio:hover{
-    border: 3px solid white;
-}
 
 @media screen and (min-width: 1024px){
     .basquet2{

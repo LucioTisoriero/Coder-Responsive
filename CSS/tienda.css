@@ -1,11 +1,3 @@
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
-
-
 header {
   background-color: rgb(235, 30, 42);
   height: 75px;
@@ -24,6 +16,10 @@ header nav a {
   background-color: rgb(22, 56, 86);
   border-radius: 5px;
   border: 2px solid white;
+}
+header nav a:hover {
+  background-color: rgb(0, 132, 246);
+  border: 1px solid white;
 }
 
 main {
@@ -80,6 +76,9 @@ main .texto p {
   border-radius: 5px;
   padding: 5px;
 }
+.ultimo .Sitio:hover {
+  border: 3px solid yellow;
+}
 .ultimo .baner {
   width: 700px;
   height: 30px;
@@ -87,35 +86,25 @@ main .texto p {
   display: none;
 }
 
-.Sitio:hover {
-  border: 3px solid yellow;
-}
-
-header nav a:hover {
-  background-color: rgb(0, 132, 246);
-  border: 1px solid white;
-}
-
-@media screen and (min-width: 1024px){
-  .marca{
-      width: 500px;
-      height: 500px;
-      margin-right: 50px;
+@media screen and (min-width: 1024px) {
+  .marca {
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
   }
-  .video{
-      display: flex;
-      justify-content: center;
+  .video {
+    display: flex;
+    justify-content: center;
   }
-  .video img{
-      width: 400px;
+  .video img {
+    width: 400px;
   }
-  .ultimo{
-      justify-content: space-between;
+  .ultimo {
+    justify-content: space-between;
   }
-  .baner{
-      display: inline-flex;
+  .baner {
+    display: block;
   }
- 
 }
 
 /*# sourceMappingURL=tienda.css.map */

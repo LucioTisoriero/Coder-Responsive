@@ -1,9 +1,8 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
 
 header {
   background-color: rgb(235, 30, 42);
@@ -25,6 +24,10 @@ header nav a {
   border-radius: 5px;
   border: 2px solid white;
 }
+header nav a:hover {
+  background-color: rgb(0, 132, 246);
+  border: 1px solid white;
+}
 
 main {
   padding-top: 100px;
@@ -45,6 +48,9 @@ main .PrimeraParte .basquet1 {
   height: 200px;
   width: 200px;
 }
+main .PrimeraParte .basquet1hover {
+  border: 3px solid white;
+}
 main .PrimeraParte .basquet1 p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -56,6 +62,9 @@ main .PrimeraParte .basquet1 a {
   color: black;
   background-color: white;
 }
+main .PrimeraParte .basquet1 a:hover {
+  color: rgb(235, 30, 42);
+}
 main .PrimeraParte .basquet2 {
   border: 1px solid white;
   background-image: url(../Imagenes/basquet2.jpg);
@@ -64,6 +73,9 @@ main .PrimeraParte .basquet2 {
   width: 500px;
   height: 500px;
   display: none;
+}
+main .PrimeraParte .basquet2:hover {
+  border: 3px solid white;
 }
 main .PrimeraParte .basquet2 p {
   color: white;
@@ -75,6 +87,9 @@ main .PrimeraParte .basquet2 a {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   background-color: white;
+}
+main .PrimeraParte .basquet2 a:hover {
+  color: rgb(235, 30, 42);
 }
 main .segundaparte {
   display: flex;
@@ -91,6 +106,9 @@ main .segundaparte .basquet3 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+main .segundaparte .basquet3:hover {
+  border: 3px solid white;
+}
 main .segundaparte .basquet3 p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -102,6 +120,9 @@ main .segundaparte .basquet3 a {
   color: black;
   background-color: white;
 }
+main .segundaparte .basquet3 a:hover {
+  color: rgb(235, 30, 42);
+}
 main .segundaparte .basquet4 {
   display: none;
   border: 1px solid white;
@@ -110,6 +131,9 @@ main .segundaparte .basquet4 {
   background-image: url(../Imagenes/basquet4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+main .segundaparte .basquet4:hover {
+  border: 3px solid white;
 }
 main .segundaparte .basquet4 p {
   color: white;
@@ -132,6 +156,9 @@ main .Info {
   color: white;
   text-decoration: none;
   margin-left: 120px;
+}
+main .Info:hover {
+  background-color: rgb(235, 30, 42);
 }
 main .fixture {
   width: 200px;
@@ -179,50 +206,12 @@ footer .sitiooficial .Sitio {
   padding: 5px;
   margin-right: 10px;
 }
+footer .sitiooficial .Sitio:hover {
+  border: 3px solid white;
+}
 footer .baner {
   width: 500px;
   display: none;
-}
-
-header nav a:hover {
-  background-color: rgb(0, 132, 246);
-  border: 1px solid white;
-}
-
-.basquet1:hover {
-  border: 3px solid white;
-}
-
-.basquet1 a:hover {
-  color: rgb(235, 30, 42);
-}
-
-.basquet2:hover {
-  border: 3px solid white;
-}
-
-.basquet2 a:hover {
-  color: rgb(235, 30, 42);
-}
-
-.basquet3:hover {
-  border: 3px solid white;
-}
-
-.basquet3 a:hover {
-  color: rgb(235, 30, 42);
-}
-
-.basquet4:hover {
-  border: 3px solid white;
-}
-
-.Info:hover {
-  background-color: rgb(235, 30, 42);
-}
-
-.Sitio:hover {
-  border: 3px solid white;
 }
 
 @media screen and (min-width: 1024px) {

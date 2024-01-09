@@ -1,10 +1,8 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
-
 
 header {
   background-color: rgb(235, 30, 42);
@@ -26,6 +24,10 @@ header a {
   border-radius: 5px;
   border: 2px solid white;
 }
+header a:hover {
+  background-color: rgb(0, 132, 246);
+  border: 1px solid white;
+}
 
 main {
   padding-top: 100px;
@@ -37,6 +39,9 @@ main .noticia1 {
   background-image: url(../Imagenes/Noticia1mod.png);
   background-size: cover;
   border: 1px solid black;
+}
+main .noticia1:hover {
+  border: 2px solid white;
 }
 main .noticia1 a {
   color: white;
@@ -52,6 +57,9 @@ main .noticia2 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+main .noticia2:hover {
+  border: 2px solid white;
+}
 main .noticia2 a {
   color: white;
   text-decoration: none;
@@ -61,6 +69,9 @@ main .noticia2 a {
 main .texto {
   height: 400px;
   margin: 20px;
+}
+main .texto p:hover {
+  color: rgb(235, 30, 42);
 }
 main .texto .texto1 {
   font-size: 60px;
@@ -98,6 +109,10 @@ main .otras .info {
   color: white;
   text-decoration: none;
 }
+main .otras .info:hover {
+  color: black;
+  border: 2px solid white;
+}
 main h1 {
   color: rgb(235, 30, 42);
   font-family: Arial, Helvetica, sans-serif;
@@ -126,6 +141,9 @@ main .otrasnoticias .otras1 a {
   color: white;
   background-color: black;
 }
+main .otrasnoticias .otras1 a:hover {
+  color: rgb(235, 30, 42);
+}
 main .otrasnoticias .otras2 {
   background-image: url(../Imagenes/otrasnoticias2.webp);
   background-size: cover;
@@ -136,6 +154,9 @@ main .otrasnoticias .otras2 a {
   text-decoration: none;
   color: white;
   background-color: black;
+}
+main .otrasnoticias .otras2 a:hover {
+  color: rgb(235, 30, 42);
 }
 main .otrasnoticias .otras3 {
   background-image: url(../Imagenes/otrasnoticias6.webp);
@@ -148,6 +169,9 @@ main .otrasnoticias .otras3 a {
   color: white;
   background-color: black;
 }
+main .otrasnoticias .otras3 a:hover {
+  color: rgb(235, 30, 42);
+}
 main .otrasnoticias .otras4 {
   background-image: url(../Imagenes/otrasnoticias3.webp);
   background-size: cover;
@@ -158,6 +182,9 @@ main .otrasnoticias .otras4 a {
   text-decoration: none;
   color: white;
   background-color: black;
+}
+main .otrasnoticias .otras4 a:hover {
+  color: rgb(235, 30, 42);
 }
 main .otrasnoticias .otras5 {
   background-image: url(../Imagenes/otrasnoticias4.webp);
@@ -170,6 +197,9 @@ main .otrasnoticias .otras5 a {
   color: white;
   background-color: black;
 }
+main .otrasnoticias .otras5 a:hover {
+  color: rgb(235, 30, 42);
+}
 main .otrasnoticias .otras6 {
   background-image: url(../Imagenes/otrasnoticias5.webp);
   background-size: cover;
@@ -180,6 +210,9 @@ main .otrasnoticias .otras6 a {
   text-decoration: none;
   color: white;
   background-color: black;
+}
+main .otrasnoticias .otras6 a:hover {
+  color: rgb(235, 30, 42);
 }
 
 footer {
@@ -201,6 +234,10 @@ footer .DiarioFuente .fuente {
   text-decoration: none;
   margin: 25px;
 }
+footer .DiarioFuente .fuente:hover {
+  color: black;
+  background-color: white;
+}
 footer .tapa {
   width: 100px;
   margin: 10px;
@@ -211,37 +248,6 @@ footer .baner {
   border-radius: 10px;
   display: none;
   margin-top: 25px;
-}
-
-header nav a:hover {
-  background-color: rgb(0, 132, 246);
-  border: 1px solid white;
-}
-
-.noticia1:hover {
-  border: 2px solid white;
-}
-
-.texto p:hover {
-  color: rgb(235, 30, 42);
-}
-
-.noticia2:hover {
-  border: 2px solid white;
-}
-
-.info:hover {
-  color: black;
-  border: 2px solid white;
-}
-
-.otrasnoticias a:hover {
-  color: rgb(235, 30, 42);
-}
-
-.fuente:hover {
-  color: black;
-  background-color: white;
 }
 
 @media screen and (min-width: 1440px) {
