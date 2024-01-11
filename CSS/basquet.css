@@ -215,34 +215,34 @@ footer .baner {
 }
 
 @media screen and (min-width: 1024px) {
-  .basquet2 {
+  main .PrimeraParte .basquet2 {
     display: block;
   }
-  .PrimeraParte {
+  main .PrimeraParte {
     justify-content: center;
   }
-  .segundaparte {
+  main .segundaparte {
     justify-content: center;
   }
-  .basquet4 {
+  main .segundaparte .basquet4 {
     display: block;
   }
-  .basquet3 {
+  main .segundaparte .basquet3 {
     width: 500px;
     height: 500px;
   }
-  .Info {
+  main .Info {
     margin-left: 700px;
   }
-  .fixture {
+  main .fixture {
     width: 500px;
     margin-left: 500px;
   }
-  .baner {
+  footer .baner {
     display: block;
   }
-  .redsocial {
-    display: flex;
+  footer .sitiooficial {
+    display: block;
   }
 }
 

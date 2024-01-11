@@ -102,7 +102,7 @@ main .texto p {
   .ultimo {
     justify-content: space-between;
   }
-  .baner {
+  .ultimo .baner {
     display: block;
   }
 }

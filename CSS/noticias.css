@@ -251,25 +251,26 @@ footer .baner {
 }
 
 @media screen and (min-width: 1440px) {
-  .texto {
+  .main .texto {
     display: flex;
     justify-content: space-between;
   }
-  .texto1 {
+  .main .texto .texto1 {
     width: 500px;
     margin-top: 50px;
   }
-  .texto2 {
+  main .texto .texto2 {
+    display: block;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 500px;
+  }
+  .main .texto .texto3 {
     display: block;
     width: 500px;
     margin-top: 50px;
   }
-  .texto3 {
-    display: block;
-    width: 500px;
-    margin-top: 50px;
-  }
-  .texto4 {
+  .main .texto .texto4 {
     display: block;
     width: 500px;
     margin-top: 50px;
@@ -280,13 +281,13 @@ footer .baner {
   footer {
     justify-content: space-between;
   }
-  .baner {
+  .footer .baner {
     display: block;
   }
-  .otrasnoticias {
+  main .otrasnoticias {
     display: grid;
   }
-  h1 {
+  main h1 {
     display: block;
   }
 }

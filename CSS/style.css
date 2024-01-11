@@ -192,13 +192,13 @@ footer .contacto .baner {
 }
 
 @media screen and (min-width: 1024px) {
-  .dos {
+  main .parte1 .dos {
+    display: inline-block
+  }
+  main .parte1 .tres {
     display: block;
   }
-  .tres {
-    display: block;
-  }
-  .video p {
+  main .video p {
     display: block;
   }
   .parte2 {
@@ -210,7 +210,7 @@ footer .contacto .baner {
   .redes {
     padding-left: 600px;
   }
-  .baner {
+  footer .contacto .baner {
     display: block;
   }
 }
