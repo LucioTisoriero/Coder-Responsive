@@ -244,6 +244,9 @@ footer .baner {
   footer .sitiooficial {
     display: block;
   }
+  main .redsocial {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=basquet.css.map */
